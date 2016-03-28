@@ -1,0 +1,46 @@
+{
+  "name": "jsgrep",
+  "version": "1.0.0",
+  "description": "syntax-aware JavaScript grep",
+  "main": "lib/JSGrep.js",
+  "bin": {
+    "jsgrep": "lib/JSGrepCLI.js"
+  },
+  "scripts": {
+    "test": "mocha -r babel-core/register 'test/**/*.test.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amireh/jsgrep.git"
+  },
+  "keywords": [
+    "grep",
+    "javascript",
+    "syntax",
+    "ast",
+    "search",
+    "tool",
+    "linux"
+  ],
+  "author": "Ahmad Amireh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amireh/jsgrep/issues"
+  },
+  "homepage": "https://github.com/amireh/jsgrep#readme",
+  "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-preset-es2016": "^6.0.6",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "multiline-slash": "^1.0.0"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "babel-core": "^6.7.4",
+    "babel-runtime": "^6.6.1",
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "glob": "^7.0.3"
+  }
+}
