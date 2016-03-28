@@ -1,7 +1,7 @@
 {
-  "name": "jsgrep",
+  "name": "jsgrep-frd",
   "version": "1.0.0",
-  "description": "syntax-aware JavaScript grep",
+  "description": "Syntax-aware JavaScript grep.",
   "main": "lib/JSGrep.js",
   "bin": {
     "jsgrep": "lib/JSGrepCLI.js"
